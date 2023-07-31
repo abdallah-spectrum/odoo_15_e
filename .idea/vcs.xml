@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/6ou_addons/addons_acc/accounting_partner_required" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/6ou_addons/addons_hr/up_working_time_attendence" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/enterprise" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/odoo-server" vcs="Git" />
+  </component>
+</project>
