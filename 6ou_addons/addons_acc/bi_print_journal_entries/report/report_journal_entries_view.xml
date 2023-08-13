@@ -149,10 +149,10 @@
 				<table style="width:100%;margin:0px auto;background:white;border:1px solid #e1e1e1;" class="table table-condensed">
 					<thead>
 						<tr>
-							<th>Partner</th>
 							<th>Account</th>
-							<th>Label</th>
-							<th>Due Date</th>
+							<th>Partner</th>
+<!--							<th>Label</th>-->
+<!--							<th>Due Date</th>-->
 							<th>Analytic Account</th>
 							<th>Taxes(%)</th>
 							<th>Debit</th>
@@ -164,21 +164,22 @@
 						<t t-set="total1" t-value="0.0"/>
 						<t t-foreach="o.line_ids" t-as="line">
 						<tr>
-							<td>
-								<span t-field="line.partner_id" />
-							</td>
+
 							<td>
 								<span t-field="line.account_id" />
 							</td>
 							<td>
+								<span t-field="line.partner_id" />
+							</td>
+							<td>
 								<span t-field="line.name" />
 							</td>
-							<td>
-								<span t-field="line.date_maturity" />
-							</td>
-							<td>
-								<span t-field="line.analytic_account_id" />
-							</td>
+<!--							<td>-->
+<!--								<span t-field="line.date_maturity" />-->
+<!--							</td>-->
+<!--							<td>-->
+<!--								<span t-field="line.analytic_account_id" />-->
+<!--							</td>-->
 							<td>
 								<span t-field="line.tax_ids" />
 							</td>
@@ -193,8 +194,8 @@
 						<t t-set="total1" t-value="total1 + line.credit"/>
 						</t>
 						<tr>
-							<td></td>
-							<td></td>
+<!--							<td></td>-->
+<!--							<td></td>-->
 							<td></td>
 							<td></td>
 							<td></td>
