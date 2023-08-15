@@ -494,6 +494,7 @@ class HolidaysAllocation(models.Model):
                    person=target
                 ))
             )
+            
         return res
 
     def add_follower(self, employee_id):

@@ -20,7 +20,7 @@
     'version': '0.1',
 
     # any module necessary for this one to work correctly
-    'depends': ['base','account'],
+    'depends': ['base','account','hr'],
 
     # always loaded
     'data': [
@@ -28,6 +28,9 @@
         'views/views.xml',
         'views/view_account_move.xml',
         'views/templates.xml',
+        'views/account_item.xml',
+        'views/hr_employess_form_inherit.xml',
+
         # 'views/lms_api_user.xml',
     ],
     # only loaded in demonstration mode
